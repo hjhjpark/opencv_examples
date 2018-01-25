@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+//home/nvidia/OpenCV_examples/example01/Hello.cpp
+iostream
+-
+opencv2/core.hpp
+//home/nvidia/OpenCV_examples/example01/opencv2/core.hpp
+opencv2/highgui/highgui.hpp
+//home/nvidia/OpenCV_examples/example01/opencv2/highgui/highgui.hpp
+opencv2/imgproc.hpp
+//home/nvidia/OpenCV_examples/example01/opencv2/imgproc.hpp
+
